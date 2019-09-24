@@ -27,16 +27,16 @@ public class MainActivity extends AppCompatActivity {
 
     public void ChangePage(View view) {
         if (view == linearLayout1) {
-            Intent intent = new Intent(MainActivity.this, Crew_Register.class);
+            Intent intent = new Intent(MainActivity.this, Hotel_Register.class);
             startActivity(intent);
         } else if (view == linearLayout2) {
-            Intent intent = new Intent(MainActivity.this, CrewList.class);
-            startActivity(intent);
-        } else if (view == linearLayout3) {
             Intent intent = new Intent(MainActivity.this, HotelList.class);
             startActivity(intent);
+        } else if (view == linearLayout3) {
+            Intent intent = new Intent(MainActivity.this, Crew_Register.class);
+            startActivity(intent);
         } else if (view == linearLayout4) {
-            Intent intent = new Intent(MainActivity.this, Hotel_Register.class);
+            Intent intent = new Intent(MainActivity.this, CrewList.class);
             startActivity(intent);
         } else if (view == linearLayout5) {
             Intent intent = new Intent(MainActivity.this, Crew_Register.class);
