@@ -92,15 +92,15 @@ public class Crew_Register extends AppCompatActivity {
                     }
 
                 }else {
-                    Toast.makeText(this,"Please Enter NIC!",Toast.LENGTH_LONG).show();
+                    Toast.makeText(this,"Please Enter NIC Number",Toast.LENGTH_LONG).show();
                 }
 
             }else{
-                Toast.makeText(this,"Please Enter Address!",Toast.LENGTH_LONG).show();
+                Toast.makeText(this,"Please Enter Address",Toast.LENGTH_LONG).show();
             }
 
         }else{
-            Toast.makeText(this,"Please Enter Name!",Toast.LENGTH_LONG).show();
+            Toast.makeText(this,"Please Enter Name",Toast.LENGTH_LONG).show();
         }
     }
 

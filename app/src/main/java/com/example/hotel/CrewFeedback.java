@@ -49,23 +49,22 @@ public class CrewFeedback extends AppCompatActivity {
 
             if (!TextUtils.isEmpty(mHotel)) {
                 if (!TextUtils.isEmpty(mNote)) {
-                    if (!TextUtils.isEmpty(mSatis)) {
                         String mId=db.push().getKey();
                         Feedback mfeedback = new Feedback(mHotel,mSatis,mNote);
 
                         db.child(mId).setValue(mfeedback);
-                        Toast.makeText(this, "Please Enter Hotel Name ", Toast.LENGTH_LONG).show();
+                        Toast.makeText(this, "Feedback Send Sucessfully ", Toast.LENGTH_LONG).show();
                         finish();
                         return;
                     } else {
-                        Toast.makeText(this, "Please Enter Note", Toast.LENGTH_LONG).show();
+                        Toast.makeText(this, "Please Enter Hotel Name", Toast.LENGTH_LONG).show();
                     }
 
                 } else {
-                    Toast.makeText(this, "Please Enter Satisfication", Toast.LENGTH_LONG).show();
+                    Toast.makeText(this, "Please Enter Description", Toast.LENGTH_LONG).show();
                 }
 
 
-            }
+
         }
     }

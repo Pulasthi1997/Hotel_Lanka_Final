@@ -100,7 +100,7 @@ public class HotelDetails extends AppCompatActivity {
 
                     @Override
                     public void DataIsUpdated() {
-                        Toast.makeText(HotelDetails.this,"Sucessfully Updated",Toast.LENGTH_LONG).show();
+                        Toast.makeText(HotelDetails.this,"Hotel Updated Sucessfully",Toast.LENGTH_LONG).show();
                         finish();return;
 
                     }
@@ -129,7 +129,7 @@ public class HotelDetails extends AppCompatActivity {
 
                     @Override
                     public void DataIsDeleted() {
-                        Toast.makeText(HotelDetails.this,"Sucessfully Deleted",Toast.LENGTH_LONG).show();
+                        Toast.makeText(HotelDetails.this,"Hotel Deleted Sucessfully",Toast.LENGTH_LONG).show();
                         finish();return;
 
 

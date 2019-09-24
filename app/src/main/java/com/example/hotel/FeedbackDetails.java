@@ -54,7 +54,7 @@ public class FeedbackDetails extends AppCompatActivity {
 
                     @Override
                     public void DataIsDeleted() {
-                        Toast.makeText(FeedbackDetails.this,"Sucessfully Deleted",Toast.LENGTH_LONG).show();
+                        Toast.makeText(FeedbackDetails.this,"Feedback Deleted Sucessfully",Toast.LENGTH_LONG).show();
                         finish();return;
 
                     }

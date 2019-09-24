@@ -80,7 +80,7 @@ public class CrewDetails extends AppCompatActivity {
 
                     @Override
                     public void DataIsUpdated() {
-                        Toast.makeText(CrewDetails.this,"Sucessfully Updated",Toast.LENGTH_LONG).show();
+                        Toast.makeText(CrewDetails.this,"Member Updation Sucessfully",Toast.LENGTH_LONG).show();
                         finish();return;
 
                     }
@@ -110,7 +110,7 @@ public class CrewDetails extends AppCompatActivity {
 
                     @Override
                     public void DataIsDeleted() {
-                        Toast.makeText(CrewDetails.this,"Sucessfully Deleted",Toast.LENGTH_LONG).show();
+                        Toast.makeText(CrewDetails.this,"Member Deletion Sucessfully",Toast.LENGTH_LONG).show();
                         finish();return;
 
                     }
