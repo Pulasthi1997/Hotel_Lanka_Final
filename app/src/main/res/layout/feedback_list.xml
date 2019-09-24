@@ -14,8 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:text="TextView"
-        app:layout_constraintEnd_toStartOf="@+id/note_txtView1"
-        app:layout_constraintHorizontal_bias="0.234"
+        app:layout_constraintEnd_toStartOf="@+id/satissfied_txtView1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -23,13 +22,10 @@
         android:id="@+id/satissfied_txtView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="308dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="144dp"
         android:text="TextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/note_txtView1"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/note_txtView1"
         app:layout_constraintTop_toBottomOf="@+id/ID_txtView" />
 
     <TextView
@@ -37,9 +33,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="96dp"
+        android:layout_marginEnd="24dp"
         android:text="TextView"
-        app:layout_constraintEnd_toStartOf="@+id/satissfied_txtView1"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Address_txtView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
