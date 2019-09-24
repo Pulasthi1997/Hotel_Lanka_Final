@@ -21,152 +21,191 @@
                 android:layout_width="match_parent"
                 android:layout_height="46dp"
                 android:layout_marginTop="20dp"
-                android:text="Crew Registration"
+                android:fontFamily="cursive"
+                android:text="Member Details"
                 android:textAlignment="center"
-                android:textColor="#E20F0F0F"
-                android:textSize="25dp"
-                android:textStyle="bold"/>
+                android:textColor="@color/colorAccent"
+                android:textSize="40dp"
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp">
 
                 <TextView
                     android:id="@+id/NameText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
+                    android:fontFamily="serif-monospace"
                     android:text="Full Name"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_marginLeft="20dp"/>
+                    android:textColor="@color/colorAccent"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/IName"
-                    android:layout_width="wrap_content"
+                    android:layout_width="252dp"
                     android:layout_height="wrap_content"
+                    android:backgroundTint="#FFF"
                     android:layout_weight="1"
                     android:ems="10"
+                    android:fontFamily="serif-monospace"
                     android:hint="Name"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorAccent" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
 
                 <TextView
                     android:id="@+id/AddressText"
                     android:layout_width="82dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
+                    android:fontFamily="serif-monospace"
                     android:text="Address"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_marginLeft="20dp"/>
+                    android:textColor="@color/colorAccent"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/IAddress"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:backgroundTint="#FFF"
                     android:layout_weight="1"
                     android:ems="10"
+                    android:fontFamily="serif-monospace"
                     android:hint="Address"
-                    android:inputType="textPostalAddress" />
+                    android:inputType="textPostalAddress"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorAccent" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
 
                 <TextView
                     android:id="@+id/NicText"
                     android:layout_width="85dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
+                    android:fontFamily="serif-monospace"
                     android:text="NIC"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_marginLeft="20dp"/>
+                    android:textColor="@color/colorAccent"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/INIC"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:backgroundTint="#FFF"
                     android:layout_weight="1"
                     android:ems="10"
+                    android:fontFamily="serif-monospace"
                     android:hint="NIC"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorAccent" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
 
                 <TextView
                     android:id="@+id/PhoneText"
                     android:layout_width="85dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
+                    android:fontFamily="serif-monospace"
                     android:text="Contact Number"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:layout_marginLeft="20dp"/>
+                    android:textColor="@color/colorAccent"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/IPhone"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:backgroundTint="#FFF"
                     android:layout_weight="1"
                     android:ems="10"
+                    android:fontFamily="serif-monospace"
                     android:hint="Phone Number"
-                    android:inputType="phone" />
+                    android:inputType="phone"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorAccent" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
 
                 <TextView
                     android:id="@+id/PositionText"
                     android:layout_width="84dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
+                    android:fontFamily="serif-monospace"
                     android:text="Position"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_marginLeft="20dp"/>
+                    android:textColor="@color/colorAccent"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/IPosition"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:backgroundTint="#FFF"
                     android:layout_weight="1"
                     android:ems="10"
+                    android:fontFamily="serif-monospace"
                     android:hint="Position"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorAccent" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
 
                 <TextView
                     android:id="@+id/EmailText"
                     android:layout_width="87dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
+                    android:fontFamily="serif-monospace"
                     android:text="Email"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_marginLeft="20dp"/>
+                    android:textColor="@color/colorAccent"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/IEmail"
@@ -174,34 +213,44 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
+                    android:fontFamily="serif-monospace"
                     android:hint="Email"
-                    android:inputType="textEmailAddress" />
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorAccent" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
 
                 <TextView
                     android:id="@+id/PasswordText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
+                    android:fontFamily="serif-monospace"
                     android:text="Password"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_marginLeft="20dp"/>
+                    android:textColor="@color/colorAccent"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/IPassword"
-                    android:layout_width="wrap_content"
+                    android:layout_width="236dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:backgroundTint="#FFF"
                     android:ems="10"
+                    android:fontFamily="serif-monospace"
                     android:hint="Password"
-                    android:inputType="textPassword" />
+                    android:inputType="textPassword"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorAccent" />
             </LinearLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -211,11 +260,9 @@
 
                 <Button
                     android:id="@+id/Update_btn"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginBottom="8dp"
+                    android:layout_width="146dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="40dp"
                     android:text="update"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -223,16 +270,13 @@
 
                 <Button
                     android:id="@+id/Delete_btn"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="8dp"
-                    android:layout_marginBottom="8dp"
+                    android:layout_width="146dp"
+                    android:layout_height="60dp"
+                    android:layout_marginEnd="40dp"
                     android:text="delete"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="1.0" />
+                    app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </LinearLayout>
