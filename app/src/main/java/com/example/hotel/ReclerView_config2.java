@@ -44,7 +44,7 @@ public class ReclerView_config2 {
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(mContext, Feedback.class);
+                    Intent intent = new Intent(mContext, FeedbackDetails.class);
                     intent.putExtra("key", key);
                     intent.putExtra("Hotel", mHotel.getText().toString());
                     intent.putExtra("Satisfied", mSatissfied.getText().toString());
