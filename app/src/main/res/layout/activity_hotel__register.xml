@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Hotel_Register">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="20dp"
+                android:clickable="false"
+                android:text="Hotel Registration"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/hotelid"
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text=" Hotel ID : "
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/hID"
+                        android:layout_width="378dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text=" Hotel Name : "
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/hName"
+                        android:layout_width="378dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text=" Hotel Address :"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/hAddress"
+                        android:layout_width="378dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text=" Contact Number : "
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/hPhone"
+                        android:layout_width="375dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text=" Price Per Night :"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/hPrice"
+                        android:layout_width="378dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="153dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text=" Hotel Class :"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/hClass"
+                        android:layout_width="181dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:entries="@array/hotel_class" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="14dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text=" Extra Facilities :"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/hExtra"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="14dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text=" WebSite :"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/hOWeb"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:hint="If available"
+                        android:inputType="textPersonName" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:textAlignment="center">
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="14dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text=" Owner Name :"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/hOName"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btnNext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="register"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
