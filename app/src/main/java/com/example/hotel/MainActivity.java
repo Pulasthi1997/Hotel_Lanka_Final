@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, CrewList.class);
             startActivity(intent);
         } else if (view == linearLayout5) {
-            Intent intent = new Intent(MainActivity.this, ReclerView_config2.class);
+            Intent intent = new Intent(MainActivity.this, Feedback_List.class);
             startActivity(intent);
         }  else if (view == linearLayout7) {
             Intent intent = new Intent(MainActivity.this, CrewDashboard.class);

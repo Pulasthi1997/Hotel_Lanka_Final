@@ -75,7 +75,7 @@
 
                 <EditText
                     android:id="@+id/Hotel"
-                    android:layout_width="350ds"
+                    android:layout_width="350dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:backgroundTint="#FFF"
@@ -109,11 +109,6 @@
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
-                <RadioGroup
-                    android:layout_width="145dp"
-                    android:layout_height="match_parent"
-                    tools:visibility="visible">>
-
                     <Spinner
                         android:id="@+id/spinner"
                         android:layout_width="181dp"
@@ -121,7 +116,7 @@
                         android:layout_weight="1"
                         android:background="@android:drawable/spinner_dropdown_background"
                         android:entries="@array/Feedback" />
-                </RadioGroup>
+
 
             </LinearLayout>
 
