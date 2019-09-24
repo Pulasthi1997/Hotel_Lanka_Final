@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".CrewFeedback">
+    tools:context=".CrewFeedback"
+    android:background="@drawable/background">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -27,9 +28,11 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="20dp"
                 android:clickable="false"
+                android:fontFamily="cursive"
                 android:text="Staff Feedback Form"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-                android:textSize="36sp"
+                android:textColor="@color/colorAccent"
+                android:textSize="50sp"
                 android:textStyle="bold" />
 
             <LinearLayout
@@ -41,10 +44,12 @@
                 android:id="@+id/textView12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:fontFamily="casual"
                 android:text=" * Are you statisefied about the Hotel ?"
+                android:textColor="@color/colorAccent"
                 android:textSize="24sp"
-                android:textStyle="bold|italic"
-                android:layout_marginTop="50dp"/>
+                android:textStyle="bold|italic" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -59,20 +64,26 @@
 
                 <TextView
                     android:id="@+id/textView6"
-                    android:layout_width="106dp"
-                    android:layout_height="43dp"
+                    android:layout_width="39dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text=" Name of the Hotel :-"
+                    android:fontFamily="serif-monospace"
+                    android:text=" Name of the Hotel "
+                    android:textColor="@color/colorAccent"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/Hotel"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="350ds"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="#FFF"
                     android:ems="10"
+                    android:hint="Hotel Name"
                     android:inputType="textPersonName"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorAccent"
                     android:textSize="14sp" />
 
             </LinearLayout>
@@ -92,7 +103,9 @@
                     android:id="@+id/textView18"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text=" Satisfied About the  Service :-"
+                    android:fontFamily="serif-monospace"
+                    android:text=" Satisfied About the  Service "
+                    android:textColor="@color/colorAccent"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -117,7 +130,10 @@
                     android:id="@+id/textView19"
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
-                    android:text=" Add a Note :-"
+                    android:fontFamily="serif-monospace"
+                    android:hint="Special Note"
+                    android:text=" Add a Note "
+                    android:textColor="@color/colorAccent"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -126,9 +142,12 @@
                     android:layout_width="244dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="#FFF"
                     android:ems="10"
+                    android:hint="Special Note"
                     android:inputType="textPersonName"
-                    />
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorAccent" />
             </LinearLayout>
 
             <Button
