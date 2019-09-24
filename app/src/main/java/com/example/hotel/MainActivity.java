@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 
 public class MainActivity extends AppCompatActivity {
 
-    LinearLayout linearLayout1, linearLayout2, linearLayout3, linearLayout4, linearLayout5, linearLayout6, linearLayout7;
+    LinearLayout linearLayout1, linearLayout2, linearLayout3, linearLayout4, linearLayout5,linearLayout7;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
         linearLayout3 = findViewById(R.id.mlayout3);
         linearLayout4 = findViewById(R.id.mlayout4);
         linearLayout5 = findViewById(R.id.mlayout5);
-        linearLayout6 = findViewById(R.id.mlayout6);
         linearLayout7 = findViewById(R.id.mlayout7);
     }
 
@@ -39,13 +38,10 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, CrewList.class);
             startActivity(intent);
         } else if (view == linearLayout5) {
-            Intent intent = new Intent(MainActivity.this, Crew_Register.class);
+            Intent intent = new Intent(MainActivity.this, ReclerView_config2.class);
             startActivity(intent);
-        } else if (view == linearLayout6) {
-            Intent intent = new Intent(MainActivity.this, Crew_Register.class);
-            startActivity(intent);
-        } else if (view == linearLayout7) {
-            Intent intent = new Intent(MainActivity.this, Crew_Register.class);
+        }  else if (view == linearLayout7) {
+            Intent intent = new Intent(MainActivity.this, CrewDashboard.class);
             startActivity(intent);
         }
     }

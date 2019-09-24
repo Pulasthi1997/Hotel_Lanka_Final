@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HotelDetails"></activity>
+        <activity android:name=".Feedback_List"></activity>
+        <activity android:name=".CrewFeedback" />
+        <activity android:name=".CrewDashboard" />
+        <activity android:name=".HotelDetails" />
         <activity android:name=".CrewDetails" />
         <activity android:name=".HotelList" />
         <activity android:name=".Hotel_Register" />
