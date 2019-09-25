@@ -147,6 +147,7 @@
                         android:layout_weight="1"
                         android:ems="10"
                         android:inputType="textPersonName"
+                        android:maxLength="10"
                         android:textSize="18sp"
                         android:backgroundTint="#FFF"
                         android:textColor="@color/colorAccent"/>

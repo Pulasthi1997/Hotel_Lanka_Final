@@ -63,7 +63,7 @@ public class HotelDetails extends AppCompatActivity {
         hAddress=(EditText)findViewById(R.id.hAddress);
         hAddress.setText(HAddress);
         hPhone=(EditText)findViewById(R.id.hPhone);
-        hPhone.setText(HAddress);
+        hPhone.setText(HPhone);
         hPrice=(EditText)findViewById(R.id.hPrice);
         hPrice.setText(HPrice);
         hClass=(Spinner)findViewById(R.id.hClass);
